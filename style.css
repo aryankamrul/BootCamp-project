@@ -26,3 +26,41 @@ nav ul{
 nav ul li{
     color:skyblue;
 }
+.header{
+    margin:120px 50px;
+}
+.header-section{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+
+}
+.header-right{
+line-height: 1.7;
+
+}
+.header-right h1{
+    font-size: 52px;
+    font-weight: 600;
+    color: rgb(78, 74, 74);
+}
+.header-right p{
+    font-size: 16px;
+    color: grey;
+    padding: 16px ;
+}
+.header-right button{
+    background-color: #ad172b;
+    color: white;
+    font-size: 20px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 41px;
+}
+.header-left img{
+    /* width: 500px; */
+    /* height: 400px; */
+    object-fit: cover;
+  border-radius: 40px;
+}
